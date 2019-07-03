@@ -7,8 +7,8 @@
   <Description>
     Nessus is an open-source network vulnerability scanner. After deploying this docker, the user will have to follow the Nessus setup configuration to finish the initial deployment to include obtaining license keys.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] ???[br]
-    [b]/data[/b] ???[br]
+    [b]/config[/b] Configuration mapping[br]
+    [b]/data[/b] Data mapping[br]
   </Description>
   <Overview>
     Nessus is a network vulnerability scanner.
