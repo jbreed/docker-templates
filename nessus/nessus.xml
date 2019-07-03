@@ -7,9 +7,8 @@
   <Description>
     Nessus is an open-source network vulnerability scanner. After deploying this docker, the user will have to follow the Nessus setup configuration to finish the initial deployment to include obtaining license keys.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where couchpotato will store it's configuration file, database and logs.[br]
-    [b]/data[/b] This path is used retrieve the downloaded files by your downloader application.[br]
-    [b]/media[/b] This is where couchpotato will scan for media files.
+    [b]/config[/b] ???[br]
+    [b]/data[/b] ???[br]
   </Description>
   <Overview>
     Nessus is a network vulnerability scanner.
@@ -54,11 +53,6 @@
     <Volume>
       <HostDir>/mnt/user/appdata/data</HostDir>
       <ContainerDir>/data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
