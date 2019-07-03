@@ -58,6 +58,6 @@
   </Data>
   <WebUI>https://[IP]:[PORT:8834]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/jbreed/docker-templates/master/nessus.png</Icon>
+  <Icon>https://raw.githubusercontent.com/jbreed/docker-templates/master/nessus/nessus.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
