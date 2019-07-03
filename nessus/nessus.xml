@@ -62,7 +62,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8834]/</WebUI>
+  <WebUI>https://[IP]:[PORT:8834]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/jbreed/docker-templates/master/nessus.png</Icon>
   <ExtraParams></ExtraParams>
