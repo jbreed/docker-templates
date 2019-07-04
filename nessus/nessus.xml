@@ -8,10 +8,9 @@
     Nessus is an open-source network vulnerability scanner. After deploying this docker, the user will have to follow the Nessus setup configuration to finish the initial deployment to include obtaining license keys.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] Configuration mapping[br]
-    [b]/data[/b] Data mapping[br]
   </Description>
   <Overview>
-    Nessus is a network vulnerability scanner.
+    Nessus is a network vulnerability scanner. This is a paid product, but for small home deployments one can request a free license during the setup GUI steps for internal/small networks.
   </Overview>
   <Support>https://forums.unraid.net/topic/81469-support-jbreed-nessus/</Support>
   <Registry>https://registry.hub.docker.com/u/jbreed/nessus/</Registry>
@@ -33,10 +32,6 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>UMASK</Name>
-      <Value>000</Value>
-    </Variable>
-    <Variable>
       <Name>PUID</Name>
       <Value>99</Value>
     </Variable>
@@ -49,11 +44,6 @@
     <Volume>
       <HostDir>/mnt/cache/appdata/config</HostDir>
       <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/data</HostDir>
-      <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
