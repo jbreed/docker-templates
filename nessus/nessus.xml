@@ -13,6 +13,7 @@
   <Overview>
     Nessus is a network vulnerability scanner.
   </Overview>
+  <Support>https://forums.unraid.net/topic/81469-support-jbreed-nessus/</Support>
   <Registry>https://registry.hub.docker.com/u/jbreed/nessus/</Registry>
   <GitHub>https://github.com/jbreed/nessus</GitHub>
   <Repository>jbreed/nessus</Repository>
