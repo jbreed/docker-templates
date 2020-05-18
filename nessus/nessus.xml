@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/jbreed/docker-templates/master/nessus/nessus.xml</TemplateURL>
   <Beta>False</Beta>
-  <Category>Tools:</Category>
+  <Category>Tools: Security:</Category>
   <Name>jbreed-nessus</Name>
   <Description>
     Nessus is an open-source network vulnerability scanner. After deploying this docker, the user will have to follow the Nessus setup configuration to finish the initial deployment to include obtaining license keys.[br][br]
